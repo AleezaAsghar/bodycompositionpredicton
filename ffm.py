@@ -7,7 +7,7 @@ import numpy as np
 # 1. Load ONE Model
 #    (Change filename when needed)
 # =========================
-MODEL_PATH = "ffm.pkl"  # <-- fixed path
+MODEL_PATH = "FFM.pkl"  # <-- fixed path
 with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
